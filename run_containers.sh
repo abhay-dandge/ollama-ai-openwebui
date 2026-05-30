@@ -17,7 +17,7 @@ fi
 
 # Step 2: Install and run Llama 3 model inside the Ollama container
 echo "Running Llama 3 model installation inside the Ollama container..."
-docker exec -it ollama ollama run llama3
+docker exec -it ollama ollama run SmolLM2
 
 # Check if the Llama 3 model installed successfully
 if [ $? -eq 0 ]; then
